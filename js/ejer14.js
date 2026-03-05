@@ -1,5 +1,10 @@
-const btnRed = document.querySelector("#btnRed").addEventListener("click", cambioRed);
+const btnMail = document.querySelector("#btnMail").addEventListener("click", claseError);
+const email = document.querySelector("#mail");
 
-function cambioRed() {
-    const texto = document.querySelector("#paragrafo").classList.toggle("red");
+function claseError() {
+    if(email.value.trim()) {
+        email.classList.remove("error");
+    } else {
+        email.classList.add("error");
+    }
 }

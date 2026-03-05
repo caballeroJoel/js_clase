@@ -22,3 +22,16 @@ div.ejers {
 .red {
     color: red;
 }
+
+.error {
+    border: 2px solid red;
+}
+
+.amagat { 
+    display: none; 
+}
+
+.dark {
+    background-color: #222;
+    color: #dddddd;
+}
